@@ -1,0 +1,55 @@
+video{
+    /* position: fixed; */
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    height:100%;
+    width: 100%;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.sign- up form{
+    height: 320px;
+    width: 280px;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    background: rgb(0, 0, 0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    color: white;
+    padding: top 60px;
+}
+.sign- up h3{
+    letter-spacing: 1px;
+}
+input{
+    width: 200px;
+    margin-top: 20px;
+    background: transparent;
+    outline: none;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 30px;
+    box-shadow: 0 0 4px white;
+    transition: box-shadow 0.5s;
+}
+.btn{
+    padding: 5px 20px;
+    margin-top: 30px;
+    background: transparent;
+    border-radius: 30px;
+    box-shadow: 0 0 4px white;
+    cursor: pointer;
+
+}
+input[placeholder]:focus{
+    color: white;
+}
+input:focus,
+.btn:hover{
+    box-shadow: 0 0 10px white;
+}
